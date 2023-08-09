@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_home_pages",
+  "info": {
+    "singularName": "partner-home-page",
+    "pluralName": "partner-home-pages",
+    "displayName": "PartnerHomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

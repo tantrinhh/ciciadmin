@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_home_pages",
+  "info": {
+    "singularName": "news-home-page",
+    "pluralName": "news-home-pages",
+    "displayName": "NewsHomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

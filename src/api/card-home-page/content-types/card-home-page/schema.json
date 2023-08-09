@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_home_pages",
+  "info": {
+    "singularName": "card-home-page",
+    "pluralName": "card-home-pages",
+    "displayName": "cardHomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

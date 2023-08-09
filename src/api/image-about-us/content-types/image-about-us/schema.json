@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_about_uses",
+  "info": {
+    "singularName": "image-about-us",
+    "pluralName": "image-about-uses",
+    "displayName": "ImageAboutUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
